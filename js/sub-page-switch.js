@@ -12,7 +12,7 @@ function onTopNavColorArraysLinkClick(link_elem) {
 	xreq.onreadystatechange = function() {
 		sub_page_frame.innerHTML = this.responseText;
 	}
-	xreq.open('POST', 'css-color-arrays.html', true);
+	xreq.open('GET', 'css-color-arrays.html', true);
 	xreq.send();
 }
 
@@ -26,6 +26,6 @@ function onTopNavColorGridLinkClick(link_elem) {
 	xreq.onreadystatechange = function() {
 		sub_page_frame.innerHTML = this.responseText;
 	}
-	xreq.open('POST', 'css-color-grid.html', true);
+	xreq.open('GET', 'css-color-grid.html', true);
 	xreq.send();
 }
