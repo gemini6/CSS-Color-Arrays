@@ -14,6 +14,7 @@ function onTopNavColorArraysLinkClick(link_elem) {
 	}
 	xreq.open('GET', 'css-color-arrays.html', true);
 	xreq.send();
+
 }
 
 function onTopNavColorGridLinkClick(link_elem) {
