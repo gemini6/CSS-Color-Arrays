@@ -1,0 +1,85 @@
+<!-- css-colors.html -->
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv = "x-ua-compatable" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<meta name="description" content="practice front-end code">
+		<meta name="author" content="Paul McCarthy">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700|Roboto:400,400i,500,700" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet"> 
+        <link href="vendor/prism/prism.css" rel="stylesheet">
+        <link href="css/globals.css" rel="stylesheet">
+	    <link href="css/css-colors.css" rel="stylesheet">
+        <link href="css/css-color-arrays.css" rel="stylesheet">
+        <link href="css/css-color-grid.css" rel="stylesheet">
+	</head>
+	<body>
+        <div class="container-fluid" style="padding-left: 0; padding-right: 0;" id="page-wrapper">
+            <nav class="navbar navbar-expand-md navbar-toggleable-md fixed-top bg-light clear" id="top-nav">
+                <a class="navbar-brand" href="#">SRCCOD3R</a>
+                <button class="btn navbar-toggler" data-toggle="collapse" data-target="#top-nav-collapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="top-nav-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown-divider" role="separator"></li>
+                        <li class="nav-item">
+                            <a class="nav-link top-nav-link" href="#" onclick="onTopNavColorArraysLinkClick();" data-toggle="collapse" data-target="#top-nav-collapse">
+                                Color Arrays 
+                                <span>
+                                    <p class="text-left text-secondary d-xs-block d-sm-inline-block d-md-none d-lg-none">- Individual arrays of CSS color name,hex & rgb values in multiple languages.</p>
+                                </span>
+                            </a>
+                        </li> 
+                        <li class="dropdown-divider" role="separator"></li>
+                        <li class="nav-item">
+                            <a class="nav-link top-nav-link" href="#" onclick="onTopNavColorGridLinkClick()" data-toggle="collapse" data-target="#top-nav-collapse">
+                                Color Grid
+                                <span>
+                                    <p class="text-left text-secondary d-xs-block d-sm-inline-block d-md-none d-lg-none">- A color picker grid of css colors and other palletes.</p>
+                                </span>
+                            </a>
+                        </li>           
+                        
+                    </ul>            
+                </div>
+            </nav> 
+
+            <header id="page-header">
+
+                <h1 class="text-uppercase text-center bg-light" id="page-title">css colors</h1>
+
+                <div class="text-center w-50 m-auto" id="social-icon-bar">
+                    <img class="header-social-icon" src="res/img/facebook.svg" alt="facebook" width="24" height="24">
+                    <img class="header-social-icon" src="res/img/twitter.svg" alt="twitter" width="24" height="24">
+                    <img class="header-social-icon" src="res/img/instagram.svg" alt="instagram" width="24" height="24">
+                    <img class="header-social-icon" src="res/img/google-plus.svg" alt="google-plus" width="24" height="24">
+                    <img class="header-social-icon" src="res/img/github/github-original.svg" alt="github" width="24" height="24">
+                </div>
+            </header>
+            <main class="" id="page-main" role="page-main">
+                <div id="sub-page-frame">
+                    
+                </div>
+            </main>
+            <footer id="page-footer">
+                <div id="footer-above">
+                    
+                </div>
+                <div class="fixed-bottom bg-light" id="footer-below">
+                    <p class="text-center font-weight-bold" id="footer-below-brand">SRCCOD3R LLC &copy;</p>
+                </div>
+            </footer>
+        </div> <!-- #page-wrapper -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+        <script src="vendor/prism/prism.js"></script>
+        <script src="js/sub-page-switch.js"></script>
+	</body>
+</html>

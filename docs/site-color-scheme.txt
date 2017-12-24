@@ -1,0 +1,11 @@
+- COLOR SCHEME
+
+#111111 - BLACK(darker)
+#2A2A2A - BLACK(dark)
+#17A2B8 - BLUE(darker) .text-info
+#007BFF - BLUE(lighter) .text-primary
+#03A9F4 - BLUE(lightest)
+#868E96 - GREY(darker) .text-secondary
+#9E9E9E - GREY(light)
+#BDBDBD - GREY(lighter)
+#E57373 - RED(lightest)

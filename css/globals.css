@@ -1,0 +1,15 @@
+
+/* Any header that doesn't have a class of either .text-info, .text-primary 
+or .text-secondary */
+h1, h2, h3, h4, h5, h6 {
+	color: #2A2A2A;
+}
+
+h3.sub-page-title {
+	margin-top: 20px;
+}
+
+h4.language-name-header {
+
+}
+
