@@ -1,4 +1,5 @@
 // rerun-prism-highlight.js
 
-
-Prism.highlightAll();
+function reactivatePrismHighlighting() {
+	Prism.highlightAll();
+}

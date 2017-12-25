@@ -11,8 +11,12 @@ function onTopNavColorArraysLinkClick(link_elem) {
 	}
 	xreq.onreadystatechange = function() {
 		sub_page_frame.innerHTML = this.responseText;
-		Prism.highlightAll();
-	}
+		// Re-calls Prism.highlightAll() in order for the code blocks to 
+		// have syntax highlighting when they are loaded. This is needed since
+		// the http request is serving the css-color-arrays-page after the DOM 
+		// has loaded. [See: Issue #1]
+		reactivatePrismHighlighting();
+	} 
 	xreq.open('GET', 'css-color-arrays.html', true);
 	xreq.send();
 
