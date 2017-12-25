@@ -9,5 +9,5 @@
 <h2>Authors</h2>
 
 <h2>License</h2>
-<p>This project is licensed under the MIT License - see th. LICENSE.md file for details</p>
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
