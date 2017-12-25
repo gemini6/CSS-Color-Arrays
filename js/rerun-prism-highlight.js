@@ -1,5 +1,4 @@
 // rerun-prism-highlight.js
 
-$(document).ready(function() {
-	Prism.highlightAll();
-});
+
+Prism.highlightAll();

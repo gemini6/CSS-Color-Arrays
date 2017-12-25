@@ -11,6 +11,7 @@ function onTopNavColorArraysLinkClick(link_elem) {
 	}
 	xreq.onreadystatechange = function() {
 		sub_page_frame.innerHTML = this.responseText;
+		Prism.highlightAll();
 	}
 	xreq.open('GET', 'css-color-arrays.html', true);
 	xreq.send();
