@@ -30,7 +30,11 @@ function onTopNavColorGridLinkClick(link_elem) {
 		xreq = new ActiveXObject('Microsoft.XMLHTTP');
 	}	
 	xreq.onreadystatechange = function() {
-		sub_page_frame.innerHTML = this.responseText;
+		sub_page_frame.innerHTML =  this.responseText;
+
+		// Populates the header and paragraph tags of each color section
+		// with the colors name, hex and rgb values.
+		populateColorSectionFields();
 	}
 	xreq.open('GET', 'css-color-grid.html', true);
 	xreq.send();
