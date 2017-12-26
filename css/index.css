@@ -76,6 +76,11 @@ main#page-main #sub-page-frame {
     height: 400px;
 }
 
+img#home-css-logo {
+	width: 100%;
+	height: 100%;
+}
+
 footer#page-footer {
 
 }
